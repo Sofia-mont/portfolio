@@ -1,25 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
 /*
 General
 */
 *{
-    margin: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap');
-
+    margin: 0;}
 body{
-    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
     color: #686868;
-}
-
-h2{
-    font-size: xx-large;
-}
-
-
-p, h3{
-    font-size: x-large;
 }
 
 /* Navigation menu*/
@@ -30,28 +17,22 @@ p, h3{
     border-radius: 100%;
     padding: 5px 10px 5px 10px;
 }
-
 .circle:hover{
   transition: ease-in .2s;
   background-color: #999CD1;
 }
-
 .circle:focus-within{
   background-color: #999CD1;
 }
-
 .line{
     border-right: 2px #999CD1 solid;
     height: 6vh;
 }
-
 a{
     text-decoration: none;
 }
 
-
 /* Main section */
-
 #main{
     height: 100vh;
     background-color: #CEC9DB
@@ -61,7 +42,6 @@ a{
     border: 2px white solid;
     padding: 15px 35px 15px 35px;
 }
-
 .text-main{
     color: white;
     font-style: italic;
@@ -74,54 +54,26 @@ a{
     line-height: 0;
     margin-top: -10px;
 }
-
 .custom-shape-divider-top-1649616430 svg {
     display: block;
     width: calc(100% + 1.3px);
     height: 192px;
 }
-
 .custom-shape-divider-top-1649616430 .shape-fill {
     fill: #CEC9DB;
 }
 
 /* About me section */
-.About-me{
+#About-me{
     height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.triangle-desc{
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-top: 30px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-left: 70px solid #618FB0;
-}
-.aboutmetxt-desc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.aboutme-p{
-    user-select: none;
-    margin-left: 70px;
-    width: 30vw;
-    color: #999999;
 }
 
 .aboutme-btn{
     user-select: none;
     cursor: pointer;
-    margin-top: 70px;
-    margin-left: 70px;
-    padding: 15px 50px 15px 50px;
+    padding: 15px;
     border-radius: 10px;
+    margin-top: 30px;
     background-color: #999CD1;
     color: white;
 }
