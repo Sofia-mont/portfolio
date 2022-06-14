@@ -51,35 +51,21 @@ a{
 
 
 /* Main section */
-.main{
-    display: flex;
+
+#main{
     height: 100vh;
-    width: 100vw;
-    background-color: #CEC9DB;
+    background-color: #CEC9DB
+}
+.name-main{
     color: white;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    border: 2px white solid;
+    padding: 15px 35px 15px 35px;
 }
 
-.main-pic{
-    height: 60vh;
-    pointer-events: none;
+.text-main{
+    color: white;
+    font-style: italic;
 }
-
-.main-title{
-    user-select: none;
-    font-size: 8vh;
-    display: inline-block;
-    padding: 10px 50px 10px 50px;
-    border: white 3px solid;
-}
-
-.main-p{
-    user-select: none;
-    font-size: xx-large
-}
-
 .custom-shape-divider-top-1649616430 {
     top: 0;
     left: 0;
