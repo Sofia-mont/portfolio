@@ -23,32 +23,12 @@ p, h3{
 }
 
 /* Navigation menu*/
-.nav{
-    display: inline-block;
-    position: fixed;
-}
-
-.nav-ul{
-    margin-left: 30px;
-    height: 100vh;
-    display:inline-flex;
-    flex-direction: column;
-    align-content: space-around;
-    align-items: center;
-    justify-content: center;
-}
-
-.nav-li{
-    list-style: none;
-}
-
 .circle{
     display: inline-block;
     border: 2px #999CD1 solid;
     background-color: transparent;
     border-radius: 100%;
-    width: 32px;
-    height: 32px;
+    padding: 5px 10px 5px 10px;
 }
 
 .circle:hover{
@@ -60,17 +40,8 @@ p, h3{
   background-color: #999CD1;
 }
 
-
-.div-icon{
-    pointer-events: none;
-    width: 30px;
-    color: #999CD1 !important;
-}
-
 .line{
-    margin-top: -5px;
-    margin-left: 1.8vh;
-    border-left: 2px #999CD1 solid;
+    border-right: 2px #999CD1 solid;
     height: 6vh;
 }
 
