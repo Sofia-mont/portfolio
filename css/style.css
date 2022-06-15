@@ -11,7 +11,8 @@ body{
 
 /* Navigation menu*/
 .navbar{
-    width: 15vw;
+    width: 5vw;
+    margin-left: 10vw;
     display: flex;
     text-align: center;
     position: relative;
@@ -20,13 +21,10 @@ body{
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
-
 .circle{
-    display: inline-block;
     border: 2px #999CD1 solid;
     background-color: transparent;
     border-radius: 100%;
-    padding: .6rem .8rem .6rem .8rem;
 }
 .circle:hover{
   transition: ease-in .2s;
@@ -76,7 +74,7 @@ a{
 
 /* About me section */
 #About-me{
-    height: 80vh;
+    height: 100vh;
 }
 
 .aboutme-btn{
@@ -98,48 +96,14 @@ a{
     background-color: #3C3D52;
 }
 
-
-
 /* Education section */
-.Education{
+#Education{
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img-decorationEduc{
-  pointer-events: none;
-    display: block; 
-    margin: 10px auto; 
-    width: 5%;
-}
-.education-desc{
-    width: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 100px;
-}
-
-.education-separator{
-    margin: 60px;
-    border-left: 4px #D3D3D3 dotted;
-    height: 25vh;
-}
-
-.h3-education{
-    color: #999CD1;
-    margin-bottom: 10px;
-}
-
-.p-education{
-    margin-top: 10px;
+    margin-bottom: 10rem;
 }
 
 /* Skills Section*/
 .Skills{
+    height: 100vh;
     background-color: #CEC9DB;
 }
