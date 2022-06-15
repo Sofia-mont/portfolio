@@ -10,6 +10,17 @@ body{
 }
 
 /* Navigation menu*/
+.navbar{
+    width: 15vw;
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
 .circle{
     display: inline-block;
     border: 2px #999CD1 solid;
