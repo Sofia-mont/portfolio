@@ -22,23 +22,17 @@ body{
     transform: translateY(-50%);
 }
 .circle{
-    border: 2px #999CD1 solid;
-    background-color: transparent;
-    border-radius: 100%;
+    text-align: center; 
+    font-size:2rem; 
+    color: #999CD1; 
+    border-radius: 100%; 
+    border: 2px solid #999CD1; 
+    padding: 20%;
 }
 .circle:hover{
-  transition: ease-in .2s;
+  transition: ease-in .5s;
+  color: white;
   background-color: #999CD1;
-}
-.circle:focus-within{
-  background-color: #999CD1;
-}
-.line{
-    border-right: 2px #999CD1 solid;
-    height: 6vh;
-}
-a{
-    text-decoration: none;
 }
 
 /* Main section */
