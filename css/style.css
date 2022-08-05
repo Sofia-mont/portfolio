@@ -56,12 +56,13 @@ body{
 
 /* Education section */
 #Education{
+    padding-top: 100px;
     height: 100vh;
     margin-bottom: 10rem;
 }
 
 /* Skills Section*/
-.Skills{
+#Skills{
     height: 100vh;
     background-color: #CEC9DB;
 }
