@@ -92,31 +92,31 @@ body{
 .meter-2 {
     stroke: #b1b4f3;
     stroke-dasharray: 360;
-    stroke-dashoffset: 160;
+    stroke-dashoffset: 170;
     animation: progress-2 .75s ease-out;
 }
 .meter-3 {
     stroke: #b1b4f3;
     stroke-dasharray: 360;
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 80;
     animation: progress-3 .5s ease-out;
 }
 .meter-4 {
     stroke: #b1b4f3;
     stroke-dasharray: 360;
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 280;
     animation: progress-4 .5s ease-out;
 }
 .meter-5 {
     stroke: #b1b4f3;
     stroke-dasharray: 360;
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 200;
     animation: progress-5 .5s ease-out;
 }
 .meter-6 {
     stroke: #b1b4f3;
     stroke-dasharray: 360;
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 200;
     animation: progress-6 .5s ease-out;
 }
 @keyframes progress-1 {
@@ -132,7 +132,7 @@ body{
       stroke-dashoffset: 360;
     }
     to {
-      stroke-dashoffset: 160;
+      stroke-dashoffset: 170;
     }
 }
 @keyframes progress-3 {
@@ -140,7 +140,7 @@ body{
       stroke-dashoffset: 360;
     }
     to {
-      stroke-dashoffset: 250;
+      stroke-dashoffset: 80;
     }
 }
 @keyframes progress-4 {
@@ -148,7 +148,7 @@ body{
       stroke-dashoffset: 360;
     }
     to {
-      stroke-dashoffset: 250;
+      stroke-dashoffset: 280;
     }
 } 
 @keyframes progress-5 {
@@ -156,7 +156,7 @@ body{
       stroke-dashoffset: 360;
     }
     to {
-      stroke-dashoffset: 250;
+      stroke-dashoffset: 200;
     }
 } 
 @keyframes progress-6 {
@@ -164,6 +164,6 @@ body{
       stroke-dashoffset: 360;
     }
     to {
-      stroke-dashoffset: 250;
+      stroke-dashoffset: 200;
     }
 } 
